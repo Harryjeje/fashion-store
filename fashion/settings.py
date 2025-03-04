@@ -123,7 +123,8 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 STATICFILES_DIRS = ['static/']
-# Whitenoise Static stuffs
+
+# Whitenoise Static stuff
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
